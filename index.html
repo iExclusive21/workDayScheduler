@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../Assets/css/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <h2 id="currentDay" class="lead"></h2>
+    <p id="currentTime" class="lead"></p>
+  </header>
+  <div class="container text-center">
+<button id="clear">Clear All</button>
+    <!-- Timeblocks go here -->
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        10am:
+      </div>
+      <div id="10am" class="message-container col-10 col-md col-sm midContainer" data-time="10">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        11am:
+      </div>
+      <div id="11am" class="message-container col-10 col-md col-sm"data-time="11">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        12pm:
+      </div>
+      <div id="12pm" class="message-container col-10 col-md col-sm"data-time="12">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        1pm:
+      </div>
+      <div id="1pm" class="message-container col-10 col-md col-sm"data-time="13">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        2pm:
+      </div>
+      <div id="2pm" class="message-container col-10 col-md col-sm"data-time="14">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        3pm:
+      </div>
+      <div id="3pm" class="message-container col-10 col-md col-sm"data-time="15">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        4pm:
+      </div>
+      <div id="4pm" class="message-container col-10 col-md col-sm"data-time="16">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        5pm:
+      </div>
+      <div id="5pm" class="message-container col-10 col-md col-sm"data-time="17">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1" id="leftColumn">
+        6pm:
+      </div>
+      <div id="6pm" class="message-container col-10 col-md col-sm"data-time="18">
+        <textarea name="comments"></textarea>
+        <h5 class="message"></h5>
+      </div>
+      <div class="col-1" id="rightColumn">
+        <i class="fa fa-save" id="saveBtn" style="font-size:24px"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="../Assets/js/script.js"></script>
+</body>
+
+</html>
